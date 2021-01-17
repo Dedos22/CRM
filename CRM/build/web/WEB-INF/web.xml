@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	 xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+	 version="3.1">
+    
+    <servlet>
+<servlet-name>KayitOl</servlet-name>
+<servlet-class>servlet.KayitOl</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>KayitOl</servlet-name>
+<url-pattern>/KayitOl</url-pattern>
+</servlet-mapping>
+
+
+    <servlet>
+<servlet-name>PKayitOl</servlet-name>
+<servlet-class>servlet.PKayitOl</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>PKayitOl</servlet-name>
+<url-pattern>/PKayitOl</url-pattern>
+</servlet-mapping>
+
+    <servlet>
+<servlet-name>UKayitEt</servlet-name>
+<servlet-class>servlet.UKayitEt</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>UKayitEt</servlet-name>
+<url-pattern>/UKayitEt</url-pattern>
+</servlet-mapping>
+
+
+  <servlet>
+<servlet-name>task</servlet-name>
+<servlet-class>servlet.task</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>task</servlet-name>
+<url-pattern>/task</url-pattern>
+</servlet-mapping>
+
+
+  <servlet>
+<servlet-name>UyeOl</servlet-name>
+<servlet-class>servlet.UyeOl</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>UyeOl</servlet-name>
+<url-pattern>/UyeOl</url-pattern>
+</servlet-mapping>
+
+   <servlet>
+<servlet-name>taskdelete</servlet-name>
+<servlet-class>servlet.taskdelete</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>taskdelete</servlet-name>
+<url-pattern>/taskdelete</url-pattern>
+</servlet-mapping>
+
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>
